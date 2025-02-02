@@ -32,4 +32,21 @@ let total_orders = orders.reduce((total, order) => total + order, 0)
 //Log total order quantity to the console
 console.log("Total Orders:", total_orders)
 
+//TASK 3: EMPLOYEE PERFORMANCE TRACKING
 
+//Declare object containing employee details
+let employee = {
+    name: "Potato Mine",
+    role: "Explosive",
+    performanceScore: 75,
+    isActive: true
+};
+
+//Update performanceScore property
+employee.performanceScore = 80
+
+//Add new promotionEligible property to array
+employee.promotionEligible = true
+
+//Log updated object to the console
+console.log("Updated Employee Details:", employee)
