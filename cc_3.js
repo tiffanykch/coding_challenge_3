@@ -80,7 +80,7 @@ let inventory = {
 
     //Add method to calculate total value of item
     calculateTotalValue: function() {
-        return this.stockCount * this.price
+        return this.stockCount * this.price;
     }
 };
 
@@ -88,4 +88,4 @@ let inventory = {
 console.log("Inventory Details:", inventory)
 
 //Log total value to the console
-console.log("Total Value", inventory.calculateTotalValue())
+console.log("Total Value: $" + inventory.calculateTotalValue())
