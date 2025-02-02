@@ -69,3 +69,23 @@ feedback.push({
 
 //Log all customer feedback to the console
 console.log("Customer Feedback:", feedback)
+
+//TASK 5 - INVENTORY MANAGEMENT
+
+//Declare object containing inventory item details
+let inventory = {
+    itemName: "Soprano Ukulele",
+    stockCount: 50,
+    price: 39.99,
+
+    //Add method to calculate total value of item
+    calculateTotalValue: function() {
+        return this.stockCount * this.price
+    }
+};
+
+//Log inventory details to the console
+console.log("Inventory Details:", inventory)
+
+//Log total value to the console
+console.log("Total Value", inventory.calculateTotalValue())
