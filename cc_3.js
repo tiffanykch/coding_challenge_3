@@ -50,3 +50,22 @@ employee.promotionEligible = true
 
 //Log updated object to the console
 console.log("Updated Employee Details:", employee)
+
+//TASK 4 - CUSTOMER FEEDBACK RECORDS
+
+//Declare array containing 3 objects
+let feedback = [
+    {customerName: "Crazy Dave", feedbackText: "This is crazy!!", rating: 4},
+    {customerName: "Dr. Zomboss", feedbackText: "Too many plants.", rating: 2},
+    {customerName: "Peashooter", feedbackText: "AHHH", rating: 5}
+]
+
+//Add new feedback object to the array
+feedback.push({
+    customerName: "Ngan Hang",
+    feedbackText: "This looks nice!",
+    rating: 4.5
+});
+
+//Log all customer feedback to the console
+console.log("Customer Feedback:", feedback)
