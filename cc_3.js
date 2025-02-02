@@ -14,3 +14,22 @@ prices.shift()
 //Log updated list to the console
 console.log("Updated Prices:", prices)
 
+//TASK 2: MODIFYING CUSTOMER ORDERS
+
+//Declare array with 5 numerical values representing quantities
+let orders = [12, 43, 5, 54, 9]
+//console.log("Initial Orders:", orders)
+
+//Increase third quantity by 5
+orders[2] += 5
+
+//Log updated array to the console
+console.log("Updated Orders:", orders)
+
+//Calculate total number of orders
+let total_orders = orders.reduce((total, order) => total + order, 0)
+
+//Log total order quantity to the console
+console.log("Total Orders:", total_orders)
+
+
